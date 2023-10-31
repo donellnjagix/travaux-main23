@@ -35,7 +35,7 @@ export const properties: Array<ClassType> = [
   },
   {
     id: 2,
-    name: "4 Bedroom Massionate",
+    name: "4 Bedroom flat roof bungalow design",
     price: 5000,
     image: [img4.src, img5.src, img6.src, img7.src,img8.src],
     shortDescription: "The 4-bedroom Mid-Modern Maisonette embodies sophistication and space.",
@@ -65,7 +65,7 @@ export const properties: Array<ClassType> = [
         <li>A spacious home office.</li>
     </ul>
   `,
-propertyType: "Apartment",
+propertyType: "Bungalow",
     location: "City B",
     landSize: "100ft x 100ft",
     selections: 4, // Add more property entries with relevant details
