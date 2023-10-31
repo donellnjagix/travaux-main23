@@ -27,7 +27,7 @@ export const properties: Array<ClassType> = [
     image: [img12.src, img11.src],
     shortDescription: "This 4000Sqft flat roof bungalow design is an iconic piece of architecture with a completely reimagined approach to urban design",
     longDescription:
-      " It sits on a 100ft x 100ft or ¼ acre piece of property. The design provides an interplay of voluminous interiors and gardens as you bask in the extended heights of glass facades withplenty of natural light and a vibrant street look.",
+      " It sits on a 100ft x 100ft or ¼ acre piece of property. The design provides an interplay of voluminous interiors and gardens as you bask in the extended heights of glass facades withplenty of natural light and a vibrant street look.   ",
     propertyType: "Bungalow",
     location: "City A",
     landSize: "100ft x 100ft",
@@ -39,9 +39,33 @@ export const properties: Array<ClassType> = [
     price: 5000,
     image: [img4.src, img5.src, img6.src, img7.src,img8.src],
     shortDescription: "The 4-bedroom Mid-Modern Maisonette embodies sophistication and space.",
-    longDescription:
-      " The 4-bedroom Mid-Modern Maisonette embodies sophistication and space. With its sleek design, open layout, and large windows, it seamlessly blends form and function, offering a harmonious and stylish living experience.",
-    propertyType: "Apartment",
+    longDescription: `
+    The 4-bedroom Mid-Modern Maisonette embodies sophistication and space. With its sleek design, open layout, and large windows, it seamlessly blends form and function, offering a harmonious and stylish living experience.<br><br>
+
+    Salient Features:<br>
+    <ul>
+        <li>A parking lot to fit 4 cars.</li>
+        <li>Open plan layout kitchen.</li>
+        <li>Dining Area.</li>
+        <li>3 Lounges
+            <ul>
+                <li>Entertainment lounge with a fireplace.</li>
+                <li>Family lounge with a fireplace.</li>
+                <li>An outdoor barbeque lounge and grill facing the lush green gardens.</li>
+            </ul>
+        </li>
+        <li>4 bedrooms all ensuite
+            <ul>
+                <li>A master bedroom complete with a walk-in closet.</li>
+                <li>Two guest bedrooms.</li>
+                <li>An attached DsQ room.</li>
+            </ul>
+        </li>
+        <li>A laundry room.</li>
+        <li>A spacious home office.</li>
+    </ul>
+  `,
+propertyType: "Apartment",
     location: "City B",
     landSize: "100ft x 100ft",
     selections: 4, // Add more property entries with relevant details
