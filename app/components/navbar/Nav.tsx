@@ -17,7 +17,7 @@ const Nav = (props: Props) => {
                 <Link href="/" className='uppercase font-semibold'>Home</Link>
                 <Link href="/about" className='uppercase font-semibold'>About</Link>
                
-                <Link href="/properties" className='uppercase font-semibold'>Properties</Link>
+                <Link href="/properties" className='uppercase font-semibold'>Desighn</Link>
                 <Link href="/projects" className='uppercase font-semibold'>Projects</Link>
             </div>
             </div>

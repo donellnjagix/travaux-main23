@@ -38,9 +38,9 @@ export default function Home() {
    <div className="mt-30">
    <Homes/>
    </div>
-   <About/>
+  
    <Services/>
-   <ChooseUs/>
+   
    <FloatingWButton />
     </main>
   );
