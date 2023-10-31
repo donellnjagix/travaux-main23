@@ -5,7 +5,7 @@ import { Carousel } from "react-responsive-carousel";
 import image1 from "@/public/pic1.jpg";
 import image2 from "@/public/pic2.jpg";
 import image3 from "@/public/pic3.jpg";
-import image4 from '"@/public/pic5.jpg";
+import image4 from "@/public/pic5.jpg";
 
 
 
