@@ -2,12 +2,12 @@
 import Image from "next/image";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from "react-responsive-carousel";
-import image1 from "@/public/images/construction1.jpg";
-import image2 from "@/public/images/construction2.jpg";
-import image3 from "@/public/images/construction3.jpg";
-import image4 from '@/public/images/construction4.jpg';
+import image1 from "@/public/pic1.jpg";
+import image2 from "@/public/pic2.jpg";
+import image3 from "@/public/pic3.jpg";
+import image4 from '"@/public/pic5.jpg";
 
-type Props = {};
+
 
 const Homes = (props: Props) => {
   return (
