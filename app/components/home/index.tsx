@@ -4,8 +4,8 @@ import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a lo
 import { Carousel } from "react-responsive-carousel";
 import image1 from "@/public/images/pic1.jpg";
 import image2 from "@/public/images/pic2.jpg";
-import image3 from "@/public/images/p";
-import image4 from '@/public/images/pic5.jpg';
+import image3 from "@/public/images/pic33.jpg";
+import image4 from '@/public/images/pic55.jpg';
 
 type Props = {};
 
