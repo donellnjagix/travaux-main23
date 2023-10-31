@@ -8,6 +8,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { Carousel } from 'react-responsive-carousel';
 import WhatsAppButton from '../../components/WhatsAppButton';
+import PropertyListing from '../PropertyListing';
 type Props = {}
 // ...
 
@@ -55,7 +56,7 @@ const property = properties.find((p) => p.id === parseInt(id.toString()));
                 {property?.price}
               </span>{' '}
             </p>
-            <p className="text-accent-black">{property?.longDescription}</p>
+            <PropertyListing longDescription={property?.longDescription} />
             <Link
               className="bg-accent-orange text-accent-black rounded-sm py-1 px-4 w-fit hover:bg-orange-400"
               href="/properties"
