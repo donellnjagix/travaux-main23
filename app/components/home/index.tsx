@@ -29,7 +29,7 @@ const Homes = (props: Props) => {
             <h1 className="font-bold text-2xl md:text-[30px] pt-3 px-8 text-alice-blue">
               Welcome to Travaux ltd
             </h1>
-            <p className="text-base md:text-lg pb-1 font-bold">Building a concrete future</p>
+            <p className="text-base md:text-lg pb-1 font-bold">leading property developer in the Kenyan Real Estate Industry.</p>
           </div>
         </div>
         <div className="w-full h-[60vh] sm:h-[90vh] relative">
@@ -41,7 +41,7 @@ const Homes = (props: Props) => {
             <h1 className="font-bold text-2xl md:text-[30px] pt-3 px-8 text-alice-blue">
               Welcome to Travaux ltd
             </h1>
-            <p className="text-base md:text-lg pb-1 font-bold"> Your Construction patner...</p>
+            <p className="text-base md:text-lg pb-1 font-bold"> leading property developer in the Kenyan Real Estate Industry.</p>
           </div>
         </div>
         <div className="w-full h-[60vh] sm:h-[90vh] relative">
@@ -53,7 +53,7 @@ const Homes = (props: Props) => {
             <h1 className="font-bold text-2xl md:text-[30px] pt-3 px-8 text-alice-blue">
               Welcome to Travaux ltd
             </h1>
-            <p className="text-base md:text-lg pb-1 font-bold"> Your Construction patner...</p>
+            <p className="text-base md:text-lg pb-1 font-bold"> leading property developer in the Kenyan Real Estate Industry.</p>
           </div>
         </div>
         <div className="w-full h-[60vh] sm:h-[90vh] relative">
@@ -65,7 +65,7 @@ const Homes = (props: Props) => {
             <h1 className="font-bold text-2xl md:text-[30px] pt-3 px-8 text-alice-blue">
               Welcome to Travaux ltd
             </h1>
-            <p className="text-base md:text-lg pb-1 font-bold"> Your Construction patner...</p>
+            <p className="text-base md:text-lg pb-1 font-bold">leading property developer in the Kenyan Real Estate Industry.</p>
           </div>
         </div>
       </Carousel>

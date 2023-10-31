@@ -41,6 +41,10 @@ export default function Home() {
    <Homes/>
    </div>
   
+   <h1 style={{ textAlign: 'center', color: 'orange' }}>
+      Our Design
+    </h1>
+
    <Property />
    
    <FloatingWButton />
