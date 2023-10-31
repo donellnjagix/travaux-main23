@@ -14,7 +14,8 @@ type Props = {}
 const Property = (props: Props) => {
     const params = useParams();
     const id = params.propertyId;
-    const property = properties.find((p) => p.id === parseInt(id));
+const property = properties.find((p) => p.id === parseInt(id.toString()));
+
     if (!property) {
       return <div>Property not found!</div>;
     }
