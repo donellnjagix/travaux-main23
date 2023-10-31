@@ -30,8 +30,8 @@ const Footer = (props: Props) => {
         </div>
         <div className="mt-16 basis-1/4 md:mt-0">
           <h4 className="font-extrabold text-lg text-accent-gray">Address</h4>
-          <p className="my-5">RFH Plaza, Eastern Bypass,</p>
-          <p className="my-5">2nd Floor,Rm No. 2</p>
+          <p className="my-5">SKYRISE BUSINESS CENTRE, KARUNA ROAD, WESTLANDS,</p>
+          <p className="my-5">8TH FLOOR</p>
           <p className="my-5">P.O Box 53182-00200</p>
           <p>Nairobi-Kenya.</p>
         </div>
@@ -39,7 +39,7 @@ const Footer = (props: Props) => {
           <h4 className="font-extrabold text-lg text-accent-gray">
             Contact Us
           </h4>
-          <p className="my-5">travauxlimited@gmail.com</p>
+          <p className="my-5">info@travauxlimited.com</p>
           <p className="my-5">(+254)-729-304-190</p>
           <div className="flex items-center gap-2">
             <FaFacebook className="h-6 w-6 text-[#3b5998]" />
