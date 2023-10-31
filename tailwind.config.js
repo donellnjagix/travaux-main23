@@ -18,25 +18,26 @@ module.exports = {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic": "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      // Add your custom CSS classes here
+      extend: {
+        // Define the card container's fixed height
+        '.card': {
+          height: '400px', // Adjust the desired fixed height as needed
+        },
+
+        // Define the maximum height and text-overflow for the short description
+        '.short-description': {
+          maxHeight: '100px', // Adjust the desired max height for the short description
+          overflow: 'hidden',
+          textOverflow: 'ellipsis',
+        },
+      },
     },
     screens: {
       xs: "480px",
       sm: "768px",
       md: "1060px",
       xl: "1300px",
-    },
-    // Add your custom CSS classes here
-    extend: {
-      // Define the card container's fixed height
-      '.card-container': {
-        height: '400px', // Adjust the desired fixed height as needed
-      },
-      // Define the maximum height and text-overflow for the short description
-      '.short-description': {
-        maxHeight: '100px', // Adjust the desired max height for the short description
-        overflow: 'hidden',
-        textOverflow: 'ellipsis',
-      },
     },
   },
   plugins: [],
