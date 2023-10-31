@@ -29,7 +29,7 @@ const property = properties.find((p) => p.id === parseInt(id.toString()));
             <Carousel showThumbs={false} showArrows={true}>
               {property.image.map((image, index) => (
                 <div key={index}>
-                  <img
+                  <Image
                     src={image}
                     alt={`propertyImg${index}`}
                     style={{
