@@ -20,8 +20,8 @@ const Card = ({
   longDescription,
 }: Props) => {
   return (
-    <div className="bg-alice-blue shadow-md p-4 flex flex-col items-center justify-center gap-2 text-center card-container">
-      <div className="relative h-60 w-full flex-shrink-0">
+    <div className="bg-alice-blue shadow-md p-4 flex items-center justify-center flex-col gap-2 text-center card-container" style={{ height: '400px' }}>
+    <div className="relative h-60 w-full flex-shrink-0">
         {/* Map over the array of image strings and render each image */}
         {image.map((img, index) => (
           <Image
