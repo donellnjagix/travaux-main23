@@ -27,22 +27,22 @@ const property = properties.find((p) => p.id === parseInt(id.toString()));
         <div className="md:flex justify-between items-start pt-28 gap-8 mb-4 w-5/6 mx-auto">
           {/* image slider */}
           <div className="basis-1/2 relative w-auto h-72 sm:h-[60vh]">
-            <Carousel showThumbs={false} showArrows={true}>
-              {property.image.map((image, index) => (
-                <div key={index}>
-                  <Image
-                    src={image}
-                    alt={`propertyImg${index}`}
-                    style={{
-                      objectFit: 'cover',
-                      borderRadius: '10px',
-                      width: '100%',
-                      height: '100%',
-                    }}
-                  />
-                </div>
-              ))}
-            </Carousel>
+          <Carousel showThumbs={false} showArrows={true}>
+  {property.image.map((image, index) => (
+    <div key={index}>
+      <Image
+        src={image}
+        alt={`propertyImg${index}`}
+        style={{
+          objectFit: 'cover',
+          borderRadius: '10px',
+          width: '100%',
+          height: '100%',
+        }}
+      />
+    </div>
+  ))}
+</Carousel>
           </div>
           {/* end */}
           {/* description */}

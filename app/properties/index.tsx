@@ -64,6 +64,9 @@ export const properties: Array<ClassType> = [
         <li>A laundry room.</li>
         <li>A spacious home office.</li>
     </ul>
+
+    <li><strong><span style="font-size: 18px;">Price/Construction Cost</span></strong> - ksh. 14,800,00.00 / Usd 105,000.00</li>
+        
   `,
 propertyType: "Bungalow",
     location: "City B",
