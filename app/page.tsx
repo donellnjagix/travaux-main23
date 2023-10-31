@@ -15,6 +15,7 @@ import Team from "./components/team";
 import ChooseUs from "./components/choose-us";
 import Contact from "./components/contact";
 import Footer from "./footer";
+import FloatingWButton from "./components/WhatsAppButton";
 
 export default function Home() {
   const [selectedPage, setSelectedPage] = useState<SelectedPage>(SelectedPage.Home);
@@ -40,6 +41,7 @@ export default function Home() {
    <About/>
    <Services/>
    <ChooseUs/>
+   <FloatingWButton />
     </main>
   );
 }
