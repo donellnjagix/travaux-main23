@@ -7,7 +7,7 @@ type Props = {}
 
 const Nav = (props: Props) => {
   return (
-    <nav style={{ fontFamily: 'Roboto Bold' }}>
+    <nav style={{ fontFamily: 'Roboto' }}>
         <div className="bg-accent-white fixed top-0 z-30 w-full py-4 drop-shadow-md">
             <div className="flex items-center justify-between mx-auto w-5/6">
                 <Link href="/">
