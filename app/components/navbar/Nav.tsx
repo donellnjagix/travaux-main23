@@ -16,7 +16,7 @@ const Nav = (props: Props) => {
                 <div className='flex items-center gap-8'>
                 <Link href="/" className='uppercase font-semibold'>Home</Link>
                 <Link href="/about" className='uppercase font-semibold'>About</Link>
-                <Link href="/designs" className='uppercase font-semibold'>Designs</Link>
+               
                 <Link href="/properties" className='uppercase font-semibold'>Properties</Link>
                 <Link href="/projects" className='uppercase font-semibold'>Projects</Link>
             </div>
