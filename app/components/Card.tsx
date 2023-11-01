@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 import { Attribute } from "../types/types";
 import Image from "next/image";
 
@@ -21,13 +22,13 @@ const Card = ({
 }: Props) => {
   return (
     <div className="bg-alice-blue shadow-md p-4 flex items-center justify-center flex-col gap-2 text-center card-container" style={{ height: '500px' }}>
-    <div className="relative h-60 w-full flex-shrink-0">
+      <div className="relative h-60 w-full flex-shrink-0">
         {/* Map over the array of image strings and render each image */}
         {image.map((img, index) => (
           <Image
             key={index}
             src={img}
-            alt={name} // You can use the same alt text for all images or customize it
+            alt={name}
             fill
             sizes="(max-width: 480px) 100vw,
                     (max-width: 768px) 75vw,
@@ -36,10 +37,20 @@ const Card = ({
             className="object-cover rounded-md transition-transform duration-300 transform hover:scale-105"
           />
         ))}
+
       </div>
       <div className="font-bold text-lg text-accent-black">{name}</div>
       <div className="flex-grow">{shortDescription}</div>
-      {/* <p className="border bg-[#dde6f5] border-accent-orange py-1 px-6 rounded-md">${price}</p> */}
+      <div className="flex gap-2">
+        <Link href={`/dynamic-page/${id}`}>
+          <a className="bg-transparent border border-accent-orange text-accent-orange py-1 px-3 rounded-md hover:bg-accent-orange hover:text-alice-blue">
+            View
+          </a>
+        </Link>
+        <div className="border bg-[#dde6f5] border-accent-orange py-1 px-3 rounded-md text-accent-orange">
+          ${price}
+        </div>
+      </div>
     </div>
   );
 };
