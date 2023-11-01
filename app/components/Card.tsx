@@ -40,7 +40,7 @@ const Card = ({
       </div>
       <div className="font-bold text-lg text-accent-black">{name}</div>
       <div className="flex-grow">{shortDescription}</div>
-      <div className="flex gap-2 mt-2">
+      <div className="flex flex-row justify-between gap-2 mt-2">
         <Link href={`/properties/${id}`}>
           <a className="bg-transparent border border-accent-orange text-accent-orange py-1 px-3 rounded-md hover:bg-accent-orange hover:text-alice-blue">
             View
