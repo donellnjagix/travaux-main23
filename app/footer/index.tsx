@@ -13,13 +13,7 @@ const Footer = (props: Props) => {
     <div className="pt-12">
    <div className="bg-gray-300 justify-content mx-auto w-5/6 gap-16 md:flex">
         <div className="mt-16 basis-1/2 md:mt-0">
-          <Image
-            src={logo}
-            alt="logo"
-            height="100"
-            width="100"
-            className="object-cover"
-          />
+         
           <p className="py-5">
             At our Construction Company, we are passionate about delivering
             exceptional construction services while upholding our core values.
