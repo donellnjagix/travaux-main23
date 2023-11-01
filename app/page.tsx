@@ -37,7 +37,7 @@ export default function Home() {
   },[])
   return (
     <main>
-       <TopBar />
+      
    <div className="mt-30">
    <Homes/>
    </div>
