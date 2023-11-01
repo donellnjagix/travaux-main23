@@ -7,8 +7,11 @@ type Props = {};
 
 const Nav = (props: Props) => {
   return (
-    <nav style={{ fontFamily: 'Roboto' }}>
-      <div className="bg-alice-blue fixed top-0 z-30 w-full py-4 drop-shadow-md">
+    <nav style={{ fontFamily: 'Roboto', backgroundColor: '#557ca9' }}>
+      <div style={{ backgroundColor: 'orange', color: 'white', padding: '4px 0', textAlign: 'center' }}>
+        Phone: (123) 456-7890 | Email: example@example.com
+      </div>
+      <div className="fixed top-0 z-30 w-full py-4 drop-shadow-md">
         <div className="flex items-center justify-between mx-auto w-5/6">
           <Link href="/">
             <Image src={Logo} alt="logo" height="70" width="70" className="object-cover scale-125" />
