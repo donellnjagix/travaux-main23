@@ -41,9 +41,9 @@ export default function Home() {
    <Homes/>
    </div>
   
-   <h1 style={{ textAlign: 'center', color: 'orange' }}>
-      Our Design
-    </h1>
+   <h1 style={{ textAlign: 'center', color: 'orange', fontSize: '2rem' }}>
+  Our Design
+</h1>
 
    <Property />
    
