@@ -18,7 +18,7 @@ const Nav = (props: Props) => {
               Home
             </Link>
             <Link href="/about" className='uppercase font-semibold' style={{ color: 'white', transition: 'color 0.3s' }}>
-              About
+              Aboutt
             </Link>
             <Link href="/properties" className='uppercase font-semibold' style={{ color: 'white', transition: 'color 0.3s' }}>
               Design
