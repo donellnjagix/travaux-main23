@@ -8,9 +8,9 @@ type Props = {};
 const Nav = (props: Props) => {
   return (
     <nav style={{ fontFamily: 'Roboto' }}>
-      <div style={{ backgroundColor: 'orange', color: 'white', padding: '4px 0', textAlign: 'center', position: 'fixed', top: 0 }}>
-  Phone: (123) 476-7898 | Email: example@example.com
-</div>
+      <div style={{ backgroundColor: 'orange', color: 'white', padding: '4px 0', textAlign: 'center' }}>
+          Phone: (123) 476-7898 | Email: example@example.com
+        </div>  
 
 
       <div className="bg-alice-blue fixed top-9 z-30 w-full py-4 drop-shadow-md" style={{ backgroundColor: '#557ca9' }}>
