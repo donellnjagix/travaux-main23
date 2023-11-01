@@ -15,7 +15,7 @@ const Nav = (props: Props) => {
 
       {/* Navbar */}
       <nav style={{ fontFamily: 'Roboto' }}>
-        <div className="bg-alice-blue fixed top-3 z-30 w-full py-4 drop-shadow-md" style={{ backgroundColor: '#557ca9' }}>
+        <div className="bg-alice-blue fixed top-0 z-30 w-full py-4 drop-shadow-md" style={{ backgroundColor: '#557ca9' }}>
           <div className="flex items-center justify-between mx-auto w-5/6">
             <Link href="/">
               <Image src={Logo} alt="logo" height="70" width="70" className="object-cover scale-125" />
