@@ -12,7 +12,7 @@ const Nav = (props: Props) => {
         Phone: (123) 476-7898 | Email: example@example.com
       </div>
 
-      <div className="bg-alice-blue fixed top-12 z-30 w-full py-4 drop-shadow-md" style={{ backgroundColor: '#557ca9' }}>
+      <div className="bg-alice-blue fixed top-9 z-30 w-full py-4 drop-shadow-md" style={{ backgroundColor: '#557ca9' }}>
         <div className="flex items-center justify-between mx-auto w-5/6">
           <Link href="/">
             <Image src={Logo} alt="logo" height="70" width="70" className="object-cover scale-125" />
