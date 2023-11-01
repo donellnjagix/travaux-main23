@@ -21,7 +21,7 @@ export default function RootLayout({
       <body suppressHydrationWarning={true} className={font.className}>
        <Nav/>
         {children}
-        <Contact/>
+       
       <Footer />
       </body>
     </html>
