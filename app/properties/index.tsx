@@ -21,7 +21,7 @@ const propertyTypeOptions = ["All", "Bungalow", "Apartment", "Maisonette", "Vill
 
 export const properties: Array<ClassType> = [
   {
-    id: 1,
+    id: 2,
     name: "4 Bedroom Bungalow",
     price: 5000,  
     image: [img12.src, img11.src],
@@ -34,15 +34,20 @@ export const properties: Array<ClassType> = [
     selections: 4, // Add the number of selections
   },
   {
-    id: 2,
-    name: "4 Bedroom flat roof bungalow design",
+    id: 1,
+    name: "4 Bedroom Luxury Flat Roof Bungallow design",
     price: 5000,
     image: [img4.src, img5.src, img6.src, img7.src,img8.src],
     shortDescription: "The 4-bedroom Mid-Modern Maisonette embodies sophistication and space.",
     longDescription: `
     The 4-bedroom Mid-Modern Maisonette embodies sophistication and space. With its sleek design, open layout, and large windows, it seamlessly blends form and function, offering a harmonious and stylish living experience.<br><br>
 
-    Salient Features:<br>
+    <p><strong>Price/Construction Cost</strong> - ksh. 16,500,00.00 / Usd 119,00.00</p>
+    <p><strong>Classification:</strong> Luxury Flat Roof Bungalow.</p>
+    <p><strong>AREA:</strong> 370 SM / 4000 Sq.ft</p>
+    <p><strong>Details:</strong></p>
+    <p>This 4000Sqft flat roof bungalow design is an iconic piece of architecture with a completely reimagined approach to urban design. It sits on a 100ft x 100ft or ¼ acre piece of property. The design provides an interplay of voluminous interiors and gardens as you bask in the extended heights of glass facades with plenty of natural light and a vibrant street look.</p>
+    <p><strong>Salient Features:</strong></p>
     <ul>
         <li>A parking lot to fit 4 cars.</li>
         <li>Open plan layout kitchen.</li>
@@ -64,8 +69,6 @@ export const properties: Array<ClassType> = [
         <li>A laundry room.</li>
         <li>A spacious home office.</li>
     </ul>
-
-    <li><strong><span style="font-size: 18px;">Price/Construction Cost</span></strong> - ksh. 14,800,00.00 / Usd 105,000.00</li>
         
   `,
 propertyType: "Bungalow",
