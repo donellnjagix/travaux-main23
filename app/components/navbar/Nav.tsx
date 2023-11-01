@@ -9,7 +9,7 @@ const Nav = (props: Props) => {
   return (
     <div>
       {/* Orange strip with email and mobile number */}
-      <div className="bg-orange-500 text-white py-2 text-center">
+      <div className="bg-orange-500 text-white py-2 text-center fixed top-0 w-full">
         Email: example@email.com | Mobile: (123) 456-7890
       </div>
 
