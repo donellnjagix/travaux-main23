@@ -9,13 +9,13 @@ const Nav = (props: Props) => {
   return (
     <div>
       {/* Orange strip with email and mobile number */}
-      <div className="bg-orange-500 text-white py-2 text-center fixed top-10 w-full">
+      <div className="bg-orange-500 text-white py-2 text-center fixed top-0 w-full">
         Email: example@email.com | Mobile: (123) 456-7890
       </div>
 
       {/* Navbar */}
       <nav style={{ fontFamily: 'Roboto' }}>
-        <div className="bg-alice-blue fixed top-0 z-30 w-full py-4 drop-shadow-md" style={{ backgroundColor: '#557ca9' }}>
+        <div className="bg-alice-blue fixed top-5 z-30 w-full py-4 drop-shadow-md" style={{ backgroundColor: '#557ca9' }}>
           <div className="flex items-center justify-between mx-auto w-5/6">
             <Link href="/">
               <Image src={Logo} alt="logo" height="70" width="70" className="object-cover scale-125" />
