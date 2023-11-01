@@ -17,7 +17,7 @@ import Contact from "./components/contact";
 import Footer from "./footer";
 import FloatingWButton from "./components/WhatsAppButton";
 import Property from "./properties";
-
+import TopBar from './TopBar';
 
 export default function Home() {
   const [selectedPage, setSelectedPage] = useState<SelectedPage>(SelectedPage.Home);
@@ -37,6 +37,7 @@ export default function Home() {
   },[])
   return (
     <main>
+       <TopBar />
    <div className="mt-30">
    <Homes/>
    </div>
