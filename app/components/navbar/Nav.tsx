@@ -7,8 +7,8 @@ type Props = {};
 
 const Nav = (props: Props) => {
   return (
-    <nav style={{ fontFamily: 'Roboto', backgroundColor: '#557ca9' }}>
-      <div className="fixed top-0 z-30 w-full py-4 drop-shadow-md">
+    <nav style={{ fontFamily: 'Roboto' }}>
+      <div className="bg-alice-blue fixed top-0 z-30 w-full py-4 drop-shadow-md">
         <div className="flex items-center justify-between mx-auto w-5/6">
           <Link href="/">
             <Image src={Logo} alt="logo" height="70" width="70" className="object-cover scale-125" />
@@ -18,7 +18,7 @@ const Nav = (props: Props) => {
               Home
             </Link>
             <Link href="/about" className='uppercase font-semibold' style={{ color: 'white', transition: 'color 0.3s' }}>
-              Aboutt
+              About
             </Link>
             <Link href="/properties" className='uppercase font-semibold' style={{ color: 'white', transition: 'color 0.3s' }}>
               Design
