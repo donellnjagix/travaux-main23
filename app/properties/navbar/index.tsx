@@ -54,9 +54,9 @@ const Nav = (props: Props) => {
             {/* menu items */}
             <div className={`flex flex-col gap-10 ml-[33%] text-2xl`}>
             <p className="transition duration-300 text-base hover:text-accent-orange cursor-pointer" onClick = {() => router.push("/")}>Home</p>
-        <Link className="transition duration-300 text-base hover:text-accent-orange cursor-pointer" href="#properties">Properties</Link>
-        <Link className="transition duration-300 text-base hover:text-accent-orange cursor-pointer" href="#design">Design</Link>
-        <Link className="transition duration-300 text-base hover:text-accent-orange cursor-pointer" href="#contactus">Contact</Link>
+        <Link className="transition duration-300 text-base hover:text-accent-orange cursor-pointer" href="/about">  About</Link>
+        <Link className="transition duration-300 text-base hover:text-accent-orange cursor-pointer" href="/properties">Design</Link>
+        <Link className="transition duration-300 text-base hover:text-accent-orange cursor-pointer" href="/projects">Project</Link>
             </div>
       </div>
     )}
