@@ -207,6 +207,39 @@ const Property = () => {
             >
               1
             </button>
+
+            <button
+              className={`${
+                selectedNumber === 2
+                  ? "bg-blue-500 text-white"
+                  : "bg-gray-300 text-gray-600"
+              } px-3 py-1 rounded-full`}
+              onClick={() => setSelectedNumber(2)}
+            >
+              2
+            </button>
+            <button
+              className={`${
+                selectedNumber === 3
+                  ? "bg-blue-500 text-white"
+                  : "bg-gray-300 text-gray-600"
+              } px-3 py-1 rounded-full`}
+              onClick={() => setSelectedNumber(3)}
+            >
+              3
+            </button>
+
+            <button
+              className={`${
+                selectedNumber === 4
+                  ? "bg-blue-500 text-white"
+                  : "bg-gray-300 text-gray-600"
+              } px-3 py-1 rounded-full`}
+              onClick={() => setSelectedNumber(4)}
+            >
+              4
+            </button>
+
             {/* ... (similar buttons for 2, 3, and 4 bedrooms) */}
           </div>
         </div>
