@@ -22,22 +22,23 @@ module.exports = {
       extend: {
         // Define the card container's fixed height
         '.card': {
-          height: '400px', // Adjust the desired fixed height as needed
+          height: 'auto', // Remove the fixed height for mobile
         },
 
         // Define the maximum height and text-overflow for the short description
         '.short-description': {
-          maxHeight: '100px', // Adjust the desired max height for the short description
+          maxHeight: 'none', // Remove the max height for mobile
           overflow: 'hidden',
           textOverflow: 'ellipsis',
         },
       },
     },
     screens: {
-      xs: "480px",
-      sm: "768px",
-      md: "1060px",
-      xl: "1300px",
+      xs: "480px", // Keep the xs screen size
+      sm: "640px", // Adjust the sm screen size for mobile
+      md: "768px", // Adjust the md screen size for tablets
+      lg: "1024px", // Add a lg screen size for larger devices
+      xl: "1280px", // Keep the xl screen size
     },
   },
   plugins: [],

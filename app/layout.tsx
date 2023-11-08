@@ -19,10 +19,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body suppressHydrationWarning={true} className={font.className}>
-       <Nav/>
+        <Nav />
         {children}
-       
-      <Footer />
+        <Footer />
       </body>
     </html>
   );
