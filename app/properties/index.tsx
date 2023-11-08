@@ -15,8 +15,8 @@ import img9 from "@/public/images/Maisonettes5/Flat Roof 1.jpg";
 import img10 from "@/public/images/Maisonettes5/Utawala 1.jpg"; 
 import img11 from "@/public/images/Maisonette4/12 X 35 Flat Roof 3D.jpg"; 
 import img12 from "@/public/images/Maisonette4/4 bedroom flat roof 40 x 80_page-0001.jpg";
-import Carousel from "react-multi-carousel";
-import "react-multi-carousel/lib/styles.css";
+import "./styles.css"; 
+
 // Define property types (modify as needed)
 const propertyTypeOptions = ["All", "Bungalow", "Apartment", "Maisonette", "Villa"];
 
@@ -282,31 +282,26 @@ const Property = () => {
       </div>
       {/* Property Cards */}
 
-      <Carousel responsive={responsive}>
-        {filterProperties().map(
-          ({
-            id,
-            name,
-            price,
-            image,
-            shortDescription,
-          }: ClassType) => (
-            <div key={id} className="text-center">
-              <Link href={`/properties/${id}`}>
-                <Card
-                  id={id}
-                  name={name}
-                  price={price}
-                  image={image}
-                  shortDescription={shortDescription}
-                />
-              </Link>
+      
+      <div className="grid property-grid">
+  {filterProperties().map(({ id, name, price, image, shortDescription }: ClassType) => (
+    <div key={id}>
+      <Link href={`/properties/${id}`}>
+        <Card
+          id={id}
+          name={name}
+          price={price}
+          image={image}
+          shortDescription={shortDescription}
+        />
+      </Link>
             </div>
           )
         )}
-      </Carousel>
+      </div>
     </div>
   );
 };
+
 
 export default Property;
