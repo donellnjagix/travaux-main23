@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import { ClassType } from "../types/types";
 import Card from "../components/Card";
