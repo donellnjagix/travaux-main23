@@ -1,6 +1,6 @@
 "use client"
 import { useEffect, useState } from "react";
-import Navbar from "./components/navbar";
+import Nav from "./components/navbar";
 import { SelectedPage } from "./types/types";
 import Homes from "./components/home";
 import Property from "./properties";
@@ -27,6 +27,8 @@ export default function Home() {
 
   return (
     <main>
+
+      
       <div className="mt-8 sm:mt-12 md:mt-16">
         <Homes />
       </div>
