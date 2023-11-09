@@ -264,7 +264,7 @@ const Property = () => {
         </div>
       </div>
       {/* Property Cards */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
         {filterProperties().map(
           ({
             id,
