@@ -33,7 +33,7 @@ export default function Home() {
         <Homes />
       </div>
 
-      <h1 className="text-center text-orange text-2xl sm:text-3xl md:text-4xl mt-4">
+      <h1 className="text-center text-orange text-2xl sm:text-3xl md:text-4xl mt-2 sm:mt-4 md:mt-8">
         Our Design
       </h1>
 
