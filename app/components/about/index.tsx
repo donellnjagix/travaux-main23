@@ -24,26 +24,14 @@ const About = (props: Props) => {
           {/* description */}
           <div className="md:basis-3/5 items-center">
             <p className="text-sm">
-              Travaux Limited was incorporated on 21<sup>st</sup> Jan 2023
-               under the Companies Act, 2015 and the company is a
-              PRIVATE LIMITED COMPANY. This is a duly registered Limited
-              liability company with a certificate of incorporation number{" "}
-              <strong>(PVT- RXU2G68Z)</strong>
+              Travaux Limited was is your one stop shop for all of your construction needs
               <br />
               <br />
               Today, The company is a general construction entity specializing
               in building and construction works and other electrical,
               mechanical, interior, and exterior works.
-              <br />
-              <br />
-              Our Construction Company is a leading provider of construction
-              services in the industry. With a strong track record of delivering
-              high-quality projects, we have established ourselves as a trusted
-              and reliable client partner. Our comprehensive services include
-              residential, commercial, and industrial construction, renovation,
-              and remodeling projects. We take pride in our commitment to
-              excellence, safety, and customer satisfaction, which sets us apart
-              from the competition.
+              
+              
             </p>
             <div className="my-8">
               <button className="rounded-md bg-accent-orange py-2 px-10 transition duration-300 hover:bg-orange-400 text-black">

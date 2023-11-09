@@ -12,8 +12,7 @@ const page = (props: Props) => {
     <div className='pt-20'>
      <About/>
     <Mission/>
-   <CoreValues/>
-   <Structure/>
+   
    <Team/>
     </div>
   )
