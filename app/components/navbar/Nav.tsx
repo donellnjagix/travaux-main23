@@ -25,8 +25,8 @@ const Nav = (props: Props) => {
        <Image
         src={logo}
         alt="logo"
-        height={80}
-        width={80}
+        height={90}
+        width={90}
         className="object-cover"
         />
       </div>
