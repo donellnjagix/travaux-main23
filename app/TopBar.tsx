@@ -1,11 +1,13 @@
+// components/TopStrip.tsx
+
 import React from 'react';
 
-const TopBar: React.FC = () => {
+const TopStrip: React.FC = () => {
   return (
-    <div className="fixed top-0 bg-orange text-white p-2 w-full text-center z-50">
-      Phone: (123) 476-7898 | Email: example@example.com
+    <div style={{ backgroundColor: 'orange', padding: '10px', textAlign: 'center' }}>
+      Contacts: Your Contact Information Here
     </div>
   );
 };
 
-export default TopBar;
+export default TopStrip;

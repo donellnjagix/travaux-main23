@@ -1,6 +1,7 @@
 import Contact from "./components/contact";
 import Nav from "./components/navbar/Nav";
 import Footer from "./footer";
+import TopStrip from "./TopBar";
 import "./globals.css";
 import { Nunito } from "next/font/google";
 
@@ -19,6 +20,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body suppressHydrationWarning={true} className={font.className}>
+        <TopStrip />
         <Nav />
         {children}
         <Footer />
