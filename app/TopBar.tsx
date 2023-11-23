@@ -9,7 +9,7 @@ const TopStrip: React.FC = () => {
       {' '}
       <a href="tel:+254729304190">(+254)-729-304-190</a>
       {' | '}
-      <a href="mailto:info@travauxlimited.com">info@email.com</a>
+      <a href="mailto:info@travauxlimited.com">info@travauxlimited.com</a>
     </div>
   );
 };
