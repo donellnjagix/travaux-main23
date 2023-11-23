@@ -6,6 +6,9 @@ import { useState } from "react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
 import useMediaQuery from "@/app/hooks/useMediaQuery";
 import Link from "next/link";
+import TopStrip from '@/app/TopBar';
+
+
 
 type Props = {};
 const Nav = (props: Props) => {
@@ -15,6 +18,7 @@ const Nav = (props: Props) => {
 
   return (
     <div className=" p-3 shadow-lg fixed top-0 z-30 w-full bg-white">
+      <TopStrip />
     <div className="flex justify-between items-center w-5/6 mx-auto">
         {/* image */}
         <div className="cursor-pointer" onClick = {() => router.push('/')}>
