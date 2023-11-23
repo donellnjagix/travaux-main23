@@ -34,9 +34,9 @@ const Nav = (props: Props) => {
       {isAboveMediumScreens ? (
         <div className="flex gap-4">
         <p className="transition duration-300 text-base hover:text-accent-orange cursor-pointer" onClick = {() => router.push("/")}>Home</p>
-        <Link className="transition duration-300 text-base hover:text-accent-orange cursor-pointer" href="#properties">Properties</Link>
-        <Link className="transition duration-300 text-base hover:text-accent-orange cursor-pointer" href="#design">Design</Link>
-        <Link className="transition duration-300 text-base hover:text-accent-orange cursor-pointer" href="#contactus">Contact</Link>
+        <Link className="transition duration-300 text-base hover:text-accent-orange cursor-pointer" href="/about">  About</Link>
+        <Link className="transition duration-300 text-base hover:text-accent-orange cursor-pointer" href="/properties">Design</Link>
+        <Link className="transition duration-300 text-base hover:text-accent-orange cursor-pointer" href="/projects">Project</Link>
       </div>
       ) : (
         <button
