@@ -4,8 +4,12 @@ import React from 'react';
 
 const TopStrip: React.FC = () => {
   return (
-    <div style={{ backgroundColor: 'orange', padding: '10px', textAlign: 'center' }}>
-      Contacts: Your Contact Information Here
+    <div style={{ backgroundColor: 'orange', padding: '7px', textAlign: 'center' }}>
+      Contacts: 
+      {' '}
+      <a href="tel:+254729304190">(+254)-729-304-190</a>
+      {' | '}
+      <a href="mailto:info@travauxlimited.com">example@email.com</a>
     </div>
   );
 };
