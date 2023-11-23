@@ -17,8 +17,8 @@ const Nav = (props: Props) => {
   const router = useRouter();
 
   return (
-    <div className=" p-3 shadow-lg fixed top-5 z-30 w-full bg-white">
-      <TopStrip />
+    <div className=" p-3 shadow-lg fixed top-8 z-30 w-full bg-white">
+      
     <div className="flex justify-between items-center w-5/6 mx-auto">
         {/* image */}
         <div className="cursor-pointer" onClick = {() => router.push('/')}>
