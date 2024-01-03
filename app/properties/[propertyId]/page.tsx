@@ -9,13 +9,17 @@ import Link from 'next/link';
 import Footer from '@/app/footer';
 import WhatsAppButton from '../../components/WhatsAppButton';
 import PropertyListing from '../PropertyListing';
+import { useRouter } from 'next/router';
+
+
 
 type Props = {};
 
 const Property = (props: Props) => {
-  const params = useParams();
-  const id = params.propertyId;
-  const property = properties.find((p) => p.id === parseInt(id.toString()));
+  const router = useRouter();
+const { propertyId } = router.query;
+const id = propertyId as string;
+const property = properties.find((p) => p.id === parseInt(id));
 
   if (!property) {
     return <div>Property not found!</div>;
