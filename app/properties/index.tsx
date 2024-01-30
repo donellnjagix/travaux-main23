@@ -36,6 +36,20 @@ export const properties: Array<ClassType> = [
     landSize: "100ft x 100ft",
     selections: 4, // Add the number of selections
   },
+
+  {
+    id: 8,
+    name: "4 Bedroom Bungalow",
+    price: 5000,  
+    image: [img12.src, img11.src],
+    shortDescription: "This 4000Sqft flat roof bungalow design is an iconic piece of architecture with a completely reimagined approach to urban design",
+    longDescription:
+      " It sits on a 100ft x 100ft or ¼ acre piece of property. The design provides an interplay of voluminous interiors and gardens as you bask in the extended heights of glass facades withplenty of natural light and a vibrant street look.   ",
+    propertyType: "Bungalow",
+    location: "City A",
+    landSize: "100ft x 100ft",
+    selections: 4, // Add the number of selections
+  },
   {
     id: 1,
     name: "4 Bedroom Luxury Flat Roof Bungallow design",
